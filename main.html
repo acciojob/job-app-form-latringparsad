@@ -18,16 +18,16 @@
 			<input type="email" id="email" name="email" placeholder="Enter email" required>
 			<br>
 			<label>Gender*</label>
-			<label for="male">Male*</label>
-			<input type="radio" id="male" name="gender" required>
-			<label for="female">Female*</label>
-			<input type="radio" id="female" name="gender" required>
+			<label for="male">Male</label>
+			<input type="radio" id="male" name="gender" value="male" required>
+			<label for="female">Female</label>
+			<input type="radio" id="female" name="gender" value="female" required>
 			<br>
-			<label for="laptop">Laptop Brands*</label>
+			<label for="laptop">Laptop Brands</label>
 			<select id="laptop" name="laptop">
-				<option>Apple</option>
-				<option>Asus</option>
-				<option>HP</option>
+				<option value="apple">Apple</option>
+				<option value="asus">Asus</option>
+				<option value="hp">HP</option>
 			</select>
 			<br>
 			<label for="age">Age*</label>
@@ -38,14 +38,13 @@
 			<br>
 			<label for="password">Password*</label>
 			<input type="password" id="password" name="password" placeholder="Enter password" required>
-			<br>
-			<label for="submit">Submit*</label>
-			<button type="submit" id="submit" name="submit" >Submit</button>
+			
 			<br>
 			<label for="portfolio">Portfolio URL</label>
 			<input type="url" id="portfolio" name="portfolio" placeholder="Enter Portfolio URL">
-			<br>
 			
+			<br>
+			<button type="submit" id="submit" name="submit" >Submit</button>
 		</form>
 	</table>
     <script type="text/javascript" src="./script.js">
